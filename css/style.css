@@ -91,7 +91,7 @@ h6 {
     font-weight: 400;
     line-height: 1.25em;
     margin: 0 0 20px 0;
-    color: #222;
+    color: #231f20;
 }
 
 img {
@@ -283,7 +283,7 @@ blockquote:before {
     font-size: 110px;
     opacity: 0.07;
     line-height: 1;
-    color: #222;
+    color: #231f20;
 }
 
 blockquote p {
@@ -450,7 +450,7 @@ blockquote cite:before {
 /* background & color */
 
 .bg-blck {
-    background: #222;
+    background: #231f20;
 }
 
 .bg-cream {
@@ -470,7 +470,7 @@ blockquote cite:before {
 }
 
 .color-4 {
-    color: #222;
+    color: #231f20;
 }
 
 .color-5 {
@@ -905,7 +905,7 @@ blockquote cite:before {
     font-size: 46px;
     font-family: 'Gilda Display', serif;
     font-weight: 400;
-    color: #222;
+    color: #231f20;
     position: relative;
     margin-bottom: 20px;
     line-height: 1.25em;
@@ -994,7 +994,7 @@ blockquote cite:before {
 }
 
 .nav-scroll .navbar-nav .nav-link {
-    color: #222;
+    color: #231f20;
 }
 
 .nav-scroll .navbar-nav .active {
@@ -1032,7 +1032,7 @@ blockquote cite:before {
     display: block;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 10px;
-    color: #222;
+    color: #231f20;
     font-weight: 400;
     letter-spacing: 1px;
     display: block;
@@ -1088,7 +1088,7 @@ blockquote cite:before {
 
 .logo-img {
     padding: 20px 0;
-    width: 160px;
+    width: 50px;
     text-align: center;
 }
 
@@ -1099,7 +1099,7 @@ blockquote cite:before {
 }
 
 .nav-scroll .dropdown .nav-link i {
-    color: #222;
+    color: #231f20;
 }
 
 .nav-scroll .navbar-nav .active i {
@@ -1111,7 +1111,7 @@ blockquote cite:before {
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #222;
+    color: #231f20;
     position: relative;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -1218,7 +1218,7 @@ blockquote cite:before {
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 160px;
+        width: 50px;
         padding: 0;
     }
     .navbar button {
@@ -1246,10 +1246,10 @@ blockquote cite:before {
         margin: 0px auto !important;
     }
     .navbar .navbar-nav .nav-link {
-        color: #222;
+        color: #231f20;
     }
     .nav-scroll .navbar-collapse .nav-link {
-        color: #222 !important;
+        color: #231f20 !important;
     }
     .nav-scroll .navbar-collapse .active {
         color: #aa8453 !important;
@@ -1292,10 +1292,10 @@ blockquote cite:before {
         padding-left: 0px;
     }
     .dropdown .nav-link i {
-        color: #222;
+        color: #231f20;
     }
     .nav-scroll .dropdown .nav-link i {
-        color: #222;
+        color: #231f20;
     }
     .nav-scroll .dropdown .nav-link.active i {
         color: #aa8453;
@@ -1405,7 +1405,7 @@ blockquote cite:before {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #222;
+    background: #231f20;
     position: absolute;
     top: 10px;
     right: 0;
@@ -1898,7 +1898,7 @@ hr {
     position: relative;
     overflow: hidden;
     background: #fff;
-    color: #222;
+    color: #231f20;
 }
 
 .slider-grid-bg .grid-img {
@@ -1996,12 +1996,12 @@ hr {
 }
 
 .slider-grid-bg .grid-con:hover .book {
-    color: #222;
+    color: #231f20;
     border: 1px solid #ddd;
 }
 
 .slider-grid-bg .grid-con-active .book {
-    color: #222;
+    color: #231f20;
     border: 1px solid #ddd;
 }
 
@@ -2037,11 +2037,11 @@ hr {
 }
 
 .slider-grid-bg .grid-con:hover .title {
-    color: #222;
+    color: #231f20;
 }
 
 .slider-grid-bg .grid-con-active .title {
-    color: #222;
+    color: #231f20;
 }
 
 /* bounce */
@@ -2401,7 +2401,7 @@ hr {
 .team .info h6 {
     font-size: 20px;
     margin-bottom: 5px;
-    color: #222;
+    color: #231f20;
 }
 
 .team .info p {
@@ -2427,7 +2427,7 @@ hr {
 }
 
 .team .info .social a:hover {
-    color: #222;
+    color: #231f20;
 }
 
 .team .info .social p {
@@ -2699,7 +2699,7 @@ hr {
 .rooms2 .caption h4,
 .rooms2 .caption h4 a {
     font-size: 35px;
-    color: #222;
+    color: #231f20;
     margin-bottom: 5px;
 }
 
@@ -2760,7 +2760,7 @@ hr {
 }
 
 .rooms2 .caption .info-wrapper .date {
-    color: #222;
+    color: #231f20;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 15px;
     background: transparent;
@@ -2772,8 +2772,8 @@ hr {
 
 .rooms2 .caption .info-wrapper .date:hover {
     background: transparent;
-    border: 1px solid #222;
-    color: #222;
+    border: 1px solid #231f20;
+    color: #231f20;
 }
 
 @media (max-width: 991.98px) {
@@ -3030,7 +3030,7 @@ hr.border-2 {
 
 .rooms3 .square2 h4 {
     font-size: 30px;
-    color: #222;
+    color: #231f20;
 }
 
 .rooms3 .square2 h6 {
@@ -3156,7 +3156,7 @@ hr.border-2 {
     position: relative;
     font-family: 'Gilda Display', serif;
     font-size: 24px;
-    color: #222;
+    color: #231f20;
 }
 
 /* page list */
@@ -3255,12 +3255,12 @@ hr.border-2 {
 
 .facilties .single-facility h5 {
     font-size: 24px;
-    color: #222;
+    color: #231f20;
     margin-bottom: 10px;
 }
 
 .facilties .single-facility:hover h5 {
-    color: #222;
+    color: #231f20;
     -webkit-transition: .5s;
     transition: .5s;
 }
@@ -3297,7 +3297,7 @@ hr.border-2 {
 
 .facilties .single-facility .facility-shape span {
     font-size: 140px;
-    color: #222;
+    color: #231f20;
 }
 
 /* hr */
@@ -3312,7 +3312,7 @@ hr {
 /* room facilities */
 
 .room-facilities .wrap {
-    background: #222;
+    background: #231f20;
     padding: 30px;
 }
 
@@ -3394,7 +3394,7 @@ hr {
 .services .content .cont h4 {
     margin: 0 0 10px 0;
     font-size: 32px;
-    color: #222;
+    color: #231f20;
     font-weight: 400;
     line-height: 1.5em;
 }
@@ -3420,7 +3420,7 @@ hr {
 }
 
 .services .content .cont .more:hover {
-    color: #222;
+    color: #231f20;
 }
 
 .services .content .info h6 {
@@ -3679,12 +3679,12 @@ hr {
 }
 
 .gallery-box .gallery-detail i {
-    color: #222;
+    color: #231f20;
     padding: 8px;
 }
 
 .gallery-box .gallery-detail i:hover {
-    color: #222;
+    color: #231f20;
 }
 
 .gallery-box:hover .gallery-detail {
@@ -3785,12 +3785,30 @@ button.mfp-arrow {
 /* video section */
 
 .video-wrapper {
-    min-height: 500px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    .container-fluid{
+        min-height: 400px;
+        padding: 20px 10xp;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .social-logo-row{
+        justify-content: center;
+    }
 }
 
 .video-wrapper .vid {
     position: relative;
     z-index: 8;
+    width: fit-content;
+    img{
+        height: 50px;
+    }
 }
 
 .video-wrapper .vid .vid-butn:hover .icon {
@@ -3905,7 +3923,7 @@ button.mfp-arrow {
 }
 
 .testimonials-box .head-box h4 span {
-    color: #222;
+    color: #231f20;
 }
 
 .line {
@@ -3985,7 +4003,7 @@ button.mfp-arrow {
 }
 
 .testimonials .item .info i {
-    color: #222;
+    color: #231f20;
     font-size: 6px;
 }
 
@@ -4078,7 +4096,7 @@ button.mfp-arrow {
 
 .ui-datepicker {
     font-size: 15px;
-    color: #222;
+    color: #231f20;
     background: #fff;
     z-index: 100 !important;
     border: 1px solid #fff;
@@ -4090,7 +4108,7 @@ button.mfp-arrow {
 .ui-widget-header .ui-state-default {
     border: 1px solid #f8f5f0;
     background: #f8f5f0;
-    color: #222;
+    color: #231f20;
 }
 
 .ui-state-hover,
@@ -4146,7 +4164,7 @@ button.mfp-arrow {
 }
 
 .btn-form1-submit:hover {
-    background: #222;
+    background: #231f20;
 }
 
 .btn-form1-submit:focus {
@@ -4176,7 +4194,7 @@ button.mfp-arrow {
     right: 20px;
     top: 23px;
     pointer-events: none;
-    content: "\e6b6";
+    content: "";
     font-family: "themify";
     font-size: 15px;
     color: #aa8453;
@@ -4187,7 +4205,7 @@ button.mfp-arrow {
     display: block;
     width: 100%;
     font-size: 15px;
-    color: #222;
+    color: #231f20;
     padding: 19.5px 40px 20px 19.5px;
     background: #fff;
     border: none;
@@ -4197,14 +4215,14 @@ button.mfp-arrow {
 
 .input1_inner input::placeholder {
     font-size: 15px;
-    color: #222 !important;
+    color: #231f20 !important;
 }
 
 .input1_inner input:focus {
     outline: none;
     box-shadow: none;
     background: #fff;
-    color: #222 !important;
+    color: #231f20 !important;
 }
 
 .select1_wrapper {
@@ -4259,7 +4277,7 @@ button.mfp-arrow {
     font-size: 15px;
     line-height: 28px;
     padding: 17px 49px 17px 20px;
-    color: #222;
+    color: #231f20;
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -4287,7 +4305,7 @@ button.mfp-arrow {
     background: #fff;
     font-size: 15px;
     line-height: 20px;
-    color: #222;
+    color: #231f20;
     border-top: 1px solid #ececec;
     text-align: center;
 }
@@ -4387,7 +4405,7 @@ button.mfp-arrow {
     font-family: 'Gilda Display', serif;
     font-size: 27px;
     font-weight: 400;
-    color: #222;
+    color: #231f20;
     border-bottom: 1px solid rgba(170, 132, 83, 0.2);
     padding-bottom: 15px;
     letter-spacing: 0;
@@ -4396,7 +4414,7 @@ button.mfp-arrow {
 }
 
 .booking-box .head-box h4 span {
-    color: #222;
+    color: #231f20;
 }
 
 @media screen and (max-width: 991px) {
@@ -4422,7 +4440,7 @@ button.mfp-arrow {
     margin: 0;
     font-family: 'Gilda Display', serif;
     font-size: 24px;
-    color: #222;
+    color: #231f20;
     margin-bottom: 20px;
 }
 
@@ -4528,7 +4546,7 @@ button.mfp-arrow {
     -webkit-flex-basis: 30%;
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
-    color: #222;
+    color: #231f20;
 }
 
 .position-title span {
@@ -4554,7 +4572,7 @@ button.mfp-arrow {
 .position-location span {
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
-    color: #222;
+    color: #231f20;
     display: block;
     text-transform: none;
     letter-spacing: 0px;
@@ -4564,7 +4582,7 @@ button.mfp-arrow {
     font-weight: 400;
     -webkit-transition: color .3s;
     transition: color .3s;
-    color: #222;
+    color: #231f20;
 }
 
 .position-time span {
@@ -4670,7 +4688,7 @@ button.mfp-arrow {
     cursor: pointer;
     padding: 20px 40px;
     padding-right: 60px;
-    color: #222;
+    color: #231f20;
     transition: all 500ms ease;
     font-family: 'Gilda Display', serif;
     ;
@@ -4817,7 +4835,7 @@ button.mfp-arrow {
 }
 
 .news .item .con .category a:hover {
-    color: #222;
+    color: #231f20;
 }
 
 .news .item .con .category a:last-child {
@@ -4830,7 +4848,7 @@ button.mfp-arrow {
 
 .news .item .con h5,
 .news .item .con h5 a {
-    color: #222;
+    color: #231f20;
     font-size: 24px;
     font-family: 'Gilda Display', serif;
     ;
@@ -4934,7 +4952,7 @@ button.mfp-arrow {
 }
 
 .news2 .post-cont h5 a {
-    color: #222;
+    color: #231f20;
 }
 
 .news2 .post-cont h5 a:hover {
@@ -5029,7 +5047,7 @@ button.mfp-arrow {
     font-size: 24px;
     line-height: 1.75em;
     margin-bottom: 15px;
-    color: #222;
+    color: #231f20;
 }
 
 .news2-sidebar .search form {
@@ -5049,7 +5067,7 @@ button.mfp-arrow {
     right: 0;
     top: 0;
     background-color: transparent;
-    color: #222;
+    color: #231f20;
     border: 0;
     padding: 10px;
     cursor: pointer;
@@ -5141,7 +5159,7 @@ button.mfp-arrow {
 
 .post-comment-section h3 {
     font-size: 20px;
-    color: #222;
+    color: #231f20;
     font-family: 'Gilda Display', serif;
     margin-bottom: 15px;
 }
@@ -5189,7 +5207,7 @@ button.mfp-arrow {
 
 .contact h3 {
     font-size: 24px;
-    color: #222;
+    color: #231f20;
 }
 
 .map {
@@ -5227,7 +5245,7 @@ button.mfp-arrow {
     bottom: 0;
     left: 100%;
     z-index: 1;
-    background: #222;
+    background: #231f20;
     color: #fff;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -5296,7 +5314,7 @@ button.mfp-arrow {
 }
 
 .butn-light a:hover span {
-    color: #222;
+    color: #231f20;
 }
 
 /* dark2 */
@@ -5324,7 +5342,7 @@ button.mfp-arrow {
     bottom: 0;
     left: 100%;
     z-index: 1;
-    background: #222;
+    background: #231f20;
     color: #fff;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -5390,7 +5408,7 @@ button.mfp-arrow {
 }
 
 .butn-light2:hover span {
-    color: #222;
+    color: #231f20;
 }
 
 /* ====== Coming Soon ======= */
@@ -5505,7 +5523,7 @@ button.mfp-arrow {
 }
 
 .comming form button:hover {
-    background-color: #222;
+    background-color: #231f20;
     color: #fff;
     outline: none;
 }
@@ -5609,12 +5627,16 @@ button.mfp-arrow {
 .footer {
     position: relative;
     display: block;
+    .footer-logo{
+        height: 100px;
+        width: fit-content;
+    }
 }
 
 .footer-top {
     position: relative;
     display: block;
-    background-color: #222;
+    /* background-color: #231f20; */
     padding: 90px 0 60px 0;
     z-index: 1;
 }
@@ -5625,7 +5647,7 @@ button.mfp-arrow {
 
 .footer-title {
     font-size: 24px;
-    color: #fff;
+    color: #aa8453;
     margin-bottom: 20px;
 }
 
@@ -5643,6 +5665,9 @@ button.mfp-arrow {
     -ms-flex-align: center;
     align-items: center;
     margin-top: 20px;
+    i{
+        color: #948e8e;
+    }
 }
 
 .footer-about-social-list a {
@@ -5670,6 +5695,9 @@ button.mfp-arrow {
 .footer-about-social-list a:hover {
     background-color: transparent;
     color: #aa8453;
+    i{
+        color: #aa8453; 
+    }
 }
 
 .footer-explore-list li+li {
@@ -5687,7 +5715,7 @@ button.mfp-arrow {
 
 .footer-explore-list li a:hover {
     padding-left: 15px;
-    color: #aa8453);
+    color: #aa8453;
 }
 
 .footer-explore-list li a:before {
@@ -5734,7 +5762,7 @@ button.mfp-arrow {
 .footer-contact-phone {
     font-family: 'Gilda Display', serif;
     font-size: 24px;
-    color: #fff;
+    color: #aa8453;
     font-weight: 400;
     display: block;
     -webkit-transition: all 500ms ease;
@@ -5742,13 +5770,13 @@ button.mfp-arrow {
 }
 
 .footer-contact-phone:hover {
-    color: #fff;
+    color: #ae7934;
 }
 
 .footer-contact-mail {
     font-size: 15px;
     line-height: 3em;
-    color: #fff;
+    color: #948e8e;
     position: relative;
     display: inline-block;
     -webkit-transition: all 500ms ease;
@@ -5756,7 +5784,7 @@ button.mfp-arrow {
 }
 
 .footer-contact-mail:hover {
-    color: #fff;
+    color: #aa8453;
 }
 
 .footer-contact-mail:before {
@@ -5820,7 +5848,7 @@ select {
 .footer-bottom {
     position: relative;
     display: block;
-    background-color: #1e1e1e;
+    background-color: #231f20;
     -webkit-box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.05);
     box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.05);
     padding: 32px 0;
@@ -5883,22 +5911,29 @@ select {
 .progress-wrap::after {
     position: absolute;
     font-family: 'themify';
-    content: '\e648';
+    content: '';
     text-align: center;
     line-height: 45px;
     font-size: 12px;
     font-weight: 700;
-    color: #323232;
+    /* color: #323232; */
     left: 0;
-    top: 0;
-    height: 45px;
-    width: 45px;
+    top: 3px;
+    right: 0;
+    bottom: 0;
+    height: 13px;
+    width: 13px;
     cursor: pointer;
     display: block;
     z-index: 1;
     -webkit-transition: all 400ms linear;
     -o-transition: all 400ms linear;
     transition: all 400ms linear;
+    color: #aa8453;
+    border-left: 3px solid #aa8453;
+    border-top: 3px solid #aa8453;
+    transform: rotate(40deg);
+    margin: auto;
 }
 
 .progress-wrap svg path {
@@ -5960,7 +5995,7 @@ select {
 }
 
 [data-overlay-darkgray]:before {
-    background: #222;
+    background: #231f20;
 }
 
 [data-overlay-light]:before {
@@ -6141,4 +6176,11 @@ select {
     .video-fullscreen-wrap .caption {
         text-align: center;
     }
+}
+
+
+/* additional */
+.call-icon-img{
+    height: 20px;
+    width: auto;
 }
