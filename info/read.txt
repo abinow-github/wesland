@@ -1,0 +1,11 @@
+web req.
+/....Home page only..../
+Logo and hotel photo
+About us
+Type of room with photos (gallery )
+Contacts and location
+Enquiry pop up
+And social media pop up
+
+
+template url : https://duruthemes.com/demo/html/cappa/demo1-light/index.html
