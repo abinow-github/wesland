@@ -6184,3 +6184,14 @@ select {
     height: 20px;
     width: auto;
 }
+
+
+/* ............ rooms details popup ................ */
+.room-popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+}
