@@ -24,6 +24,15 @@
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    .section{
+        display: none;
+    }
+    /* Show section when not hidden */
+    .section.visible {
+            display: block;
+        }
+</style>
 
 <body>
     <!-- Preloader -->
@@ -48,18 +57,23 @@
                 <!-- <a class="logo" href="index.html"> <h2>THE CAPPA <span>Luxury Hotel</span></h2> </a> -->
             </div>
             <!-- Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> 
+                </button>
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="home" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
+                    <li class="nav-item dropdown"> 
+                        <a class="change-section nav-link active dropdown-toggle" href="#home" role="button" data-bs-auto-close="outside" aria-expanded="false">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#rooms" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Rooms & Suites</a>
+                    <li class="nav-item">
+                        <a class="change-section nav-link" href="#about">About</a></li>
+                    <li class="nav-item dropdown"> 
+                        <a class="change-section nav-link dropdown-toggle" href="#rooms" role="button" data-bs-auto-close="outside" aria-expanded="false">Rooms & Suites</a>
                     </li>
                     
                     
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="change-section nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -82,7 +96,7 @@
                                 </span>
                                 <h4>Luxury Hotel & Best Resort</h4>
                                 <h1>Enjoy a Luxury Experience</h1>
-                                <div class="butn-light mt-30 mb-30"> <a href="#" data-scroll-nav="1"><span>Rooms & Suites</span></a> </div>
+                                <div class="butn-light mt-30 mb-30"> <a class="change-section" href="#rooms" data-scroll-nav="1"><span>Rooms & Suites</span></a> </div>
                             </div>
                         </div>
                     </div>
@@ -91,16 +105,17 @@
         </div>
         <!-- slider reservation -->
         <div class="reservation">
-            <a href="tel:123-456-7890">
+            <a href="tel:9353945490">
                 <div class="icon d-flex justify-content-center align-items-center">
                     <img src="img/icon/phone-call.png" class="call-icon-img" style="transform: rotate(97deg);" alt="" srcset="">
                 </div>
-                <div class="call"><span>123 456 7890</span> <br>Reservation</div>
+                <div class="call"><span>+91 93539 45490</span> <br>Reservation</div>
             </a>
         </div>
     </header>
    
     <!-- About -->
+     <div class="section visible" id="about">
     <section class="about section-padding">
         <div class="container">
             <div class="row">
@@ -120,7 +135,7 @@
                     <div class="reservations">
                         <div class="icon"><img src="img/icon/phone-call.png" class="call-icon-img" alt="" srcset=""></div>
                         <div class="text">
-                            <p>Reservation</p> <a href="tel:123-456-7890">123 456 7890</a>
+                            <p>Reservation</p> <a href="tel:9353945490">+91 93539 45490</a>
                         </div>
                     </div>
                 </div>
@@ -133,6 +148,9 @@
             </div>
         </div>
     </section>
+</div>
+
+    <div class="section" id="rooms">
     <!-- Rooms -->
     <section class="rooms1 section-padding bg-cream" data-scroll-index="1">
         <div class="container">
@@ -273,7 +291,7 @@
                     <div class="reservations mb-30">
                         <div class="icon"><img src="img/icon/phone-call.png" class="call-icon-img" alt="" srcset=""></div>
                         <div class="text">
-                            <p class="color-2">For information</p> <a href="tel:123-456-7890">123 456 7890</a>
+                            <p class="color-2">For information</p> <a href="tel:9353945490">+91 93539 45490</a>
                         </div>
                     </div>
                 </div>
@@ -332,30 +350,7 @@
             </div>
         </div>
     </section>
-    <!-- Promo Video -->
-    <section class="video-wrapper video  bg-img bg-fixed" data-overlay-dark="3" data-background="img/slider/2.jpg">
-        <div class="container-fluid">
-            <div class="row w-100">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                    <div class="section-subtitle"><span>Join us on social media to be part of our community</span></div>
-                    <div class="section-title"><span>Let’s Stay Connected!</span></div>
-                </div>
-            </div>
-            <div class="row social-logo-row">
-                    <a class="vid" href="">
-                        <img src="img/logo/instagram.png" alt="" srcset="">
-                    </a>
-                    <a class="vid" href="">
-                        <img src="img/logo/facebook.png" alt="" srcset="">
-                    </a>
-                    <a class="vid" href="">
-                        <img src="img/logo/twitter.png" alt="" srcset="">
-                    </a>
-
-            </div>
-        </div>
-    </section>
+    
     <!-- Facilties -->
     <section class="facilties section-padding">
         <div class="container">
@@ -417,8 +412,38 @@
             </div>
         </div>
     </section>
-   
-  
+    </div>
+
+    <!-- social media -->
+     <style>
+        .video-wrapper.video.bg-img.bg-fixed::before{
+            opacity: 0 !important;
+        }
+     </style>
+     <div id="contact" class="section">
+    <section class="video-wrapper video  bg-img bg-fixed" data-overlay-dark="3" style="background: #a88252;">
+        <div class="container-fluid">
+            <div class="row w-100">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+                    <div class="section-subtitle"><span>Join us on social media to be part of our community</span></div>
+                    <div class="section-title"><span>Let’s Stay Connected!</span></div>
+                </div>
+            </div>
+            <div class="row social-logo-row">
+                    <a class="vid" href="https://www.instagram.com/wesland_group_?igsh=MTN4Ym5jN2hjcWg2MA==">
+                        <img src="img/logo/instagram.png" alt="" srcset="">
+                    </a>
+                    <a class="vid" href="">
+                        <img src="img/logo/facebook.png" alt="" srcset="">
+                    </a>
+                    <a class="vid" href="">
+                        <img src="img/logo/twitter.png" alt="" srcset="">
+                    </a>
+
+            </div>
+        </div>
+    </section>
     <!-- Reservation & Booking Form -->
     <section class="testimonials">
         <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.jpg" data-overlay-dark="2">
@@ -476,7 +501,43 @@
             </div>
         </div>
     </section>
-   
+   </div>
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+            // Select all nav links
+            const navLinks = document.querySelectorAll(".change-section");
+
+            
+
+            // Add a click event listener to each nav link
+            navLinks.forEach((link) => {
+                link.addEventListener("click", (e) => {
+                    e.preventDefault(); // Prevent default anchor behavior
+
+                    // Refresh the page when "Home" is clicked
+                    if (link.getAttribute("href") === "#home") {
+                        location.reload();
+                        return;
+                    }
+
+                    // Get the target section ID from the href
+                    const targetId = link.getAttribute("href").replace("#", "");
+
+                    // Hide all sections
+                    document.querySelectorAll(".section").forEach((section) => {
+                        section.classList.remove("visible");
+                    });
+
+                    // Show the target section
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.classList.add("visible");
+                    }
+                });
+            });
+        });
+
+   </script>
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-top">
@@ -494,10 +555,10 @@
                         <div class="footer-column footer-explore clearfix">
                             <h3 class="footer-title">Explore</h3>
                             <ul class="footer-explore-list list-unstyled">
-                                <li><a href="home">Home</a></li>
-                                <li><a href="#rooms">Rooms & Suites</a></li>
-                                <li><a href="#about">About Hotel</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a class="change-section" href="#home">Home</a></li>
+                                <li><a class="change-section" href="#rooms">Rooms & Suites</a></li>
+                                <li><a class="change-section" href="#about">About Hotel</a></li>
+                                <li><a class="change-section" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -506,7 +567,7 @@
                             <h3 class="footer-title">Contact</h3>
                             <p class="footer-contact-text">15/1A , 2 nd floor,Hesarghatta Rd, Soundarya Layout, Jalahalli West, Bengaluru, Karnataka 560073</p>
                             <div class="footer-contact-info">
-                                <p class="footer-contact-phone"><img src="img/icon/phone-call.png" class="call-icon-img" alt="" srcset=""> 123 456 7890</p>
+                                <p class="footer-contact-phone"><img src="img/icon/phone-call.png" class="call-icon-img" alt="" srcset=""> +91 93539 45490</p>
                                 <p class="footer-contact-mail">info@weslandinn.com</p>
                             </div>
                             <div class="footer-about-social-list">
