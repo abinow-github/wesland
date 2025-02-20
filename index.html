@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/style.css" />
 
 
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -67,9 +69,13 @@
                         <a class="change-section nav-link active dropdown-toggle" href="#home" role="button" data-bs-auto-close="outside" aria-expanded="false">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="change-section nav-link" href="#about">About</a></li>
+                        <a class="change-section nav-link" href="#about">About</a>
+                    </li>
                     <li class="nav-item dropdown"> 
                         <a class="change-section nav-link dropdown-toggle" href="#rooms" role="button" data-bs-auto-close="outside" aria-expanded="false">Rooms & Suites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="change-section nav-link" href="#gallery">Gallery</a>
                     </li>
                     
                     
@@ -165,8 +171,8 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/rooms/1.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="">₹1500 / Night</a></h6>
-                            <h5><a href="">Premium Suite</a> </h5>
+                            <h6><a onclick="showpopup('room-popup1')">₹4000 / Night</a></h6>
+                            <h5><a onclick="showpopup('room-popup1')">Premium Suite</a> </h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -178,7 +184,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a onclick="showpopup('room-popup1')">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -188,8 +194,8 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/rooms/2.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="">₹2000 / Night</a></h6>
-                            <h5><a href="">Luxury Suit</a></h5>
+                            <h6><a onclick="showpopup('room-popup2')">₹2000 / Night</a></h6>
+                            <h5><a onclick="showpopup('room-popup2')">Luxury Suit</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -201,7 +207,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a onclick="showpopup('room-popup2')">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -211,8 +217,8 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/rooms/3.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="">₹1500 / Night</a></h6>
-                            <h5><a href="">Double Room</a></h5>
+                            <h6><a onclick="showpopup('room-popup3')">₹1500 / Night</a></h6>
+                            <h5><a onclick="showpopup('room-popup3')">Double Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -224,7 +230,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a onclick="showpopup('room-popup3')">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -234,8 +240,8 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/rooms/4.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="">₹1500 / Night</a></h6>
-                            <h5><a href="">Deluxe Room</a></h5>
+                            <h6><a onclick="showpopup('room-popup4')">₹1500 / Night</a></h6>
+                            <h5><a onclick="showpopup('room-popup4')">Deluxe Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -247,7 +253,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a onclick="showpopup('room-popup4')">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -257,8 +263,8 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="img/rooms/7.jpg" alt=""> </div> <span class="category"><a href="rooms2.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="">₹1500 / Night</a></h6>
-                            <h5><a href="">Standard Room</a></h5>
+                            <h6><a onclick="showpopup('room-popup5')">₹1500 / Night</a></h6>
+                            <h5><a onclick="showpopup('room-popup5')">Standard Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -270,7 +276,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-end">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a onclick="showpopup('room-popup5')">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -279,9 +285,168 @@
             </div>
         </div>
     </section>
-    <section class="room-popup" id="room-popup">
-        
+    <section class="room-popup" id="room-popup1">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-6 img-col">
+                    <div class="d-grid">
+                        <div class="img-div a"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div b"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div c"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div d"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 cnt-col">
+                    <h2 class="title mb-0">Premium Suite – A Touch of Elegance</h2>
+                    <h5 class="price mb-3">Price : <span>₹4000/night</span></h5>
+                    <p class="cnt">Indulge in refined luxury with our AC Premium Suite, perfect for travellers seeking a blend of comfort and style. Featuring a spacious bedroom, a private seating area, and a luxurious bathroom, this suite is designed to provide a tranquil escape from the city's hustle and bustle</p>
+                    <h4 class="sub-title mb-0">Amenities:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> King-size bed with premium linens</li>
+                        <li><i class="fa-solid fa-check"></i> Fully air-conditioned for ultimate comfort</li>
+                        <li><i class="fa-solid fa-check"></i> Modern en suite bathroom with rain shower</li>
+                        <li><i class="fa-solid fa-check"></i> High-speed Wi-Fi & Smart TV</li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 room service & concierge</li>
+                        <li><i class="fa-solid fa-check"></i> Complimentary breakfast & in room dining</li>
+                        <li><i class="fa-solid fa-check"></i> Spacious work desk and chair</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="close-div" onclick="closepopup('room-popup1')"></div>
     </section>
+    <section class="room-popup" id="room-popup2">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-6 img-col">
+                    <div class="d-grid">
+                        <div class="img-div a"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div b"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div c"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div d"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 cnt-col">
+                    <h2 class="title mb-0">Family Suite – Spacious & Comfortable</h2>
+                    <h5 class="price mb-3">Price : <span>₹4500/night</span></h5>
+                    <p class="cnt">Designed for families and group travellers lers, our AC Family Suite offers the perfect blend of space, comfort, and functionality. With multiple bedding options, a cozy seating area, and kid-friendly amenities, this room is ideal for a stress-free stay with your loved ones.                    </p>
+                    <h4 class="sub-title mb-0">Amenities:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Choice of Twin Beds or Two Queen Beds</li>
+                        <li><i class="fa-solid fa-check"></i> Fully air-conditioned for ultimate comfort</li>
+                        <li><i class="fa-solid fa-check"></i> Large seating area for family gatherings</li>
+                        <li><i class="fa-solid fa-check"></i> Child-friendly services & in-room entertainment</li>
+                        <li><i class="fa-solid fa-check"></i> High-speed Wi-Fi & Smart TV</li>
+                        <li><i class="fa-solid fa-check"></i> Complimentary breakfast for the family </li>
+                        <li><i class="fa-solid fa-check"></i> 24-hour in-room dining</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="close-div" onclick="closepopup('room-popup2')"></div>
+    </section>
+    <section class="room-popup" id="room-popup3">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-6 img-col">
+                    <div class="d-grid">
+                        <div class="img-div a"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div b"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div c"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div d"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 cnt-col">
+                    <h2 class="title mb-0">Suite – The Ultimate Luxury Experience</h2>
+                    <h5 class="price mb-3">Price : <span>₹3000/night</span></h5>
+                    <p class="cnt">Experience the pinnacle of luxury with our AC Royal Suite, designed for VIP guests and business elites who seek exclusivity and grandeur. Suite offers a perfect balance of elegance, space, and functionality With  a dedicated workspace, and modern amenities, this suite ensures a comfortable and productive stay.                    </p>
+                    <h4 class="sub-title mb-0">Amenities:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Master bedroom with a king-size bed  and premium bedding</li>
+                        <li><i class="fa-solid fa-check"></i> Fully air-conditioned for ultimate comfort  </li>
+                        <li><i class="fa-solid fa-check"></i> Luxury en suite bathroom with a rain shower </li>
+                        <li><i class="fa-solid fa-check"></i> High-speed Wi-Fi &  Smart TV with premium streaming services    </li>
+                        <li><i class="fa-solid fa-check"></i> Complimentary breakfast</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated work desk with  chair </li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 room service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="close-div" onclick="closepopup('room-popup3')"></div>
+    </section>
+    <section class="room-popup" id="room-popup4">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-6 img-col">
+                    <div class="d-grid">
+                        <div class="img-div a"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div b"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div c"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                        <div class="img-div d"><img src="img/rooms/1.jpg" alt="" class="img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 cnt-col">
+                    <h2 class="title mb-0">Deluxe Room – Elegant & Comfortable Stay                    </h2>
+                    <h5 class="price mb-3">Price : <span>₹2500/night</span></h5>
+                    <p class="cnt">Our AC Deluxe Room is designed for travellers seeking a comfortable and stylish retreat with all the essential amenities. Featuring modern interiors, plush bedding, and a cozy ambiance, this room ensures a relaxing stay whether you’re visiting for business or leisure.                    </p>
+                    <h4 class="sub-title mb-0">Amenities:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> King-size bed or Twin beds with premium linens                        </li>
+                        <li><i class="fa-solid fa-check"></i> Fully air-conditioned for ultimate comfort  </li>
+                        <li><i class="fa-solid fa-check"></i> Spacious work desk and  chair                        </li>
+                        <li><i class="fa-solid fa-check"></i> Modern ensuite bathroom with rain shower & premium toiletries                        </li>
+                        <li><i class="fa-solid fa-check"></i> High-speed Wi-Fi & Smart TV with entertainment options                        </li>
+                        <li><i class="fa-solid fa-check"></i> Complimentary breakfast & in-room dining                        </li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 room service & concierge assistance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="close-div" onclick="closepopup('room-popup4')"></div>
+    </section>
+    <section class="room-popup" id="room-popup5">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="col-md-6 img-col">
+                    <div class="d-grid">
+                        <div class="img-div a"><img src="img/rooms/2.jpg" alt="" class="img"></div>
+                        <div class="img-div b"><img src="img/rooms/2.jpg" alt="" class="img"></div>
+                        <div class="img-div c"><img src="img/rooms/2.jpg" alt="" class="img"></div>
+                        <div class="img-div d"><img src="img/rooms/2.jpg" alt="" class="img"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 cnt-col">
+                    <h2 class="title mb-0">Standard Room – Cozy & Affordable Comfort                    </h2>
+                    <h5 class="price mb-3">Price : <span>₹1500/night</span></h5>
+                    <p class="cnt">Our Non-AC Room is a great option for budget-conscious travellers who prefer a well-ventilated, naturally cool space with all essential amenities. It's perfect for solo travelers or couples looking for a budget-friendly yet comfortable stay. With modern interiors, this room provides everything you need for a relaxing and convenient experience.                    </p>
+                    <h4 class="sub-title mb-0">Amenities:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Queen-size bed or Twin beds with soft linens                        </li>
+                        <li><i class="fa-solid fa-check"></i> Work desk & chair for added convenience                        </li>
+                        <li><i class="fa-solid fa-check"></i> En suite bathroom with shower and complimentary toiletries                        </li>
+                        <li><i class="fa-solid fa-check"></i> High-speed Wi-Fi & Smart TV with entertainment options                        </li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 room service & daily housekeeping                        </li>
+                        <li><i class="fa-solid fa-check"></i> Complimentary breakfast for a perfect morning                        </li>
+                        <li><i class="fa-solid fa-check"></i> Ceiling fan & large windows for natural ventilation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="close-div" onclick="closepopup('room-popup5')"></div>
+    </section>
+    <script>
+        function showpopup(a) {
+            var popup = document.getElementById(a);
+            popup.classList.add("show"); // Add the "show" class as a string
+        }
+    
+        function closepopup(a) {
+            var popup = document.getElementById(a);
+            popup.classList.remove("show"); // Remove the "show" class as a string
+        }
+    </script>
+    
     <!-- Pricing -->
     <section class="pricing section-padding bg-blck">
         <div class="container">
@@ -417,6 +582,27 @@
     </section>
     </div>
 
+    <!-- gallery -->
+     <section class="section sctn-gallery" id="gallery">
+        <div class="container">
+            <ul class="images">
+           
+                    
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/1.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/1.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/2.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/2.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/3.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/3.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/4.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/4.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/7.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/7.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/8.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/8.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                            <li><a data-fancybox="video-gallery"  href="img/rooms/deluxe-room.jpg" class="fancybox" rel="ligthbox"><img src="img/rooms/deluxe-room.jpg" class="zoom img-fluid "  alt="name" ></a></li>
+                 
+                
+            </ul>
+        </div>
+     </section>
+
+
+
     <!-- social media -->
      <style>
         .video-wrapper.video.bg-img.bg-fixed::before{
@@ -434,7 +620,7 @@
                 </div>
             </div>
             <div class="row social-logo-row">
-                    <a class="vid" href="https://www.instagram.com/wesland_group_?igsh=MTN4Ym5jN2hjcWg2MA==">
+                    <a class="vid" href="https://www.instagram.com/wesland_inn">
                         <img src="img/logo/instagram.png" alt="" srcset="">
                     </a>
                     <a class="vid" href="">
@@ -574,7 +760,7 @@
                                 <p class="footer-contact-mail">info@weslandinn.com</p>
                             </div>
                             <div class="footer-about-social-list">
-                                <a href="https://www.instagram.com/wesland_group_?igsh=MTN4Ym5jN2hjcWg2MA=="><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/wesland_inn"><i class="fa-brands fa-instagram"></i></a>
                                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                             </div>
@@ -614,6 +800,8 @@
     <script src="js/datepicker.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
