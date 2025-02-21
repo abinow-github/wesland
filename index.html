@@ -50,6 +50,11 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
+
+    <!-- Progress scroll totop -->
+    <a href="https://wa.me/9353945490" class="progress-wrap cursor-pointer whatsapp-btn">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
@@ -302,7 +307,7 @@
                     <h5 class="price mb-3">Price : <span>₹4000/night</span></h5>
                     <p class="cnt">Indulge in refined luxury with our AC Premium Suite, perfect for travellers seeking a blend of comfort and style. Featuring a spacious bedroom, a private seating area, and a luxurious bathroom, this suite is designed to provide a tranquil escape from the city's hustle and bustle</p>
                     <h4 class="sub-title mb-0">Amenities:</h4>
-                    <ul>
+                    <ul class="check-ul">
                         <li><i class="fa-solid fa-check"></i> King-size bed with premium linens</li>
                         <li><i class="fa-solid fa-check"></i> Fully air-conditioned for ultimate comfort</li>
                         <li><i class="fa-solid fa-check"></i> Modern en suite bathroom with rain shower</li>
@@ -957,6 +962,34 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade container-fluid" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+           
+            <div class="row modal-body">  
+              <div class="text-end"><button type="button" class="btn btn-secondary closebutton" data-bs-dismiss="modal">Close</button></div>
+                <div class="col container-fluid modalcontent">
+                  
+                    <h1>Opening Soon !
+                    </h1>
+          
+            </div>
+            
+          
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <script>
+        // Show the modal 30 seconds after the page has loaded
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+            myModal.show();
+          }, 3000); // 30000 milliseconds = 30 seconds
+        });
+      </script>
     <!-- jQuery -->
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
