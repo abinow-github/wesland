@@ -6211,8 +6211,14 @@ select {
         height: 100%;
         box-shadow: 1px 1px solid;
         z-index: 99;
-        ul{
+        ul li{
+            list-style-type: disclosure-closed;
+        }
+        .check-ul{
             padding-left: 0;
+            li{
+                list-style-type: none;
+            }
         }
         .row,.col-md-6,.d-grid{
             height: 100%;
@@ -6247,6 +6253,17 @@ select {
             ul i{
                 color: #2dd62d;
                 padding-right: 5px;
+            }
+            .term-div{
+                border: 1px solid #aa8453;
+                padding: 10px;
+                margin-bottom: 10px;
+                .red{
+                    color: red;
+                }
+                .green{
+                    color: green;
+                }
             }
         }
     }
