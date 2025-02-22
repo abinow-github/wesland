@@ -5964,7 +5964,7 @@ select {
 }
 /* ======= whatsapp Button style ======= */
 
-.progress-wrap.whatsapp-btn {
+.whatsapp-btn {
     position: fixed;
     bottom: 35px;
     left: 30px;
@@ -5986,20 +5986,20 @@ select {
     transition: all 400ms linear;
     color: green;
     z-index: 99;
-}
-.progress-wrap.whatsapp-btn::before,.progress-wrap.whatsapp-btn::after{
-    display: none;
-}
-.progress-wrap.whatsapp-btn.active-progress {
-    visibility: visible;
-    opacity: 1;
-    color: #4de036;
-    display: flex
-;
     font-size: xxx-large;
+    display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+.whatsapp-btn.scrolled {
+    visibility: visible;
+    opacity: 1;
+    color: #4de036;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
 }
 /* =======  Overlay Effect Bg image style  ======= */
 
