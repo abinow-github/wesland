@@ -6332,6 +6332,27 @@ select {
 }
 
 
+.term-row.d-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+.term-div{
+    border: 1px solid #aa8453;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    .red{
+        color: red;
+    }
+    .green{
+        color: green;
+    }
+}
+}
+@media screen and (max-width:768px) {
+    .term-row.d-grid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    } 
+}
 /*==================================================================
                         gallery page END
 ==================================================================*/
