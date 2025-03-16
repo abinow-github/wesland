@@ -1121,6 +1121,20 @@ blockquote cite:before {
         }
 }
 
+@media screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+        .logo-img{
+            width: 30px;
+        }
+       .cnt-div span{
+    font-size: 19px;
+        }
+        .cnt-div p{
+            font-size: 8px;
+        }
+}
+}
 .logo-img {
     /* padding: 20px 0; */
     width: 50px;
@@ -1223,9 +1237,9 @@ blockquote cite:before {
     }
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
     .logo-wrapper{
-        transform: scale(0.7);
+        /* transform: scale(0.7); */
     }
 }
 @media screen and (max-width: 991px) {
