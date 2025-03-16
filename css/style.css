@@ -5685,6 +5685,9 @@ button.mfp-arrow {
         height: 100px;
         width: fit-content;
     }
+    .fa-envelope{
+        padding-right: 5px;
+    }
 }
 
 .footer-top {
