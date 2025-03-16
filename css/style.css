@@ -1223,6 +1223,11 @@ blockquote cite:before {
     }
 }
 
+@media screen and (max-width: 991px){
+    .logo-wrapper{
+        transform: scale(0.7);
+    }
+}
 @media screen and (max-width: 991px) {
     .navbar {
         padding-left: 0px;
