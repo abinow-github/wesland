@@ -1473,7 +1473,7 @@ hr {
 /* ======= Slider-fade style (Homepage Slider) ======= */
 
 .slider-fade .owl-item {
-    height: 100vh;
+    height: 125vh;
     position: relative;
 }
 
@@ -1484,7 +1484,7 @@ hr {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .slider-fade .item .caption {
