@@ -43,6 +43,10 @@
 ------------------------------------------------------- */
 
 /* ======= Basic style ======= */
+@font-face {
+    font-family: cavet;
+    src: url(Caveat-VariableFont_wght.ttf);
+}
 
 html,
 body {
@@ -1068,7 +1072,7 @@ blockquote cite:before {
     vertical-align: super;
 }
 
-.logo-wrapper .logo span {
+/* .logo-wrapper .logo span {
     display: block;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 10px;
@@ -1080,14 +1084,45 @@ blockquote cite:before {
     line-height: 1.2em;
     text-transform: uppercase;
     letter-spacing: 6px;
+} */
+.logo-wrapper{
+    p{
+        color: white !important;
+        font-weight: 100;
+    font-size: 15px;
+    /* text-align: center; */
+    }
 }
-
 .logo {
     padding: 0;
+    display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 10px;
+       .cnt-div span{
+            /* font-size: 20px !important; */
+            font-weight: 500;
+            display: block;
+    font-family: 'Gilda Display', serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    display: block;
+    margin-top: 0px;
+    text-transform: uppercase;
+    transform: scaleY(1.2);
+        }
+        .cnt-div p{
+            margin-bottom: 0;
+            text-align: justify;
+            line-height: 1;
+            letter-spacing: 3px;
+            font-family: cavet;
+        }
 }
 
 .logo-img {
-    padding: 20px 0;
+    /* padding: 20px 0; */
     width: 50px;
     text-align: center;
 }
